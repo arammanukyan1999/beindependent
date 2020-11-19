@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Volunteer from "./pages/Volunter/Volunter";
+import Volunteer from "./pages/Volunter/Volunteer";
 import Contact from "./pages/contacts/Contact";
 import { Route, Switch } from "react-router-dom";
 import Header from "./components/header/index";
@@ -25,7 +25,7 @@ const App = () => {
       </div>
       <div className="App">
         <Switch>
-          <Route exact path={"/volunter"} component={Volunteer} />
+          <Route exact path={"/volunteer"} component={Volunteer} />
           <Route exact path={"/contact"} component={Contact} />
         </Switch>
       </div>

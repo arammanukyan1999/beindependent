@@ -10,7 +10,12 @@
     display: flex;
     flex-direction: column;
   }
-  
+  .topline{
+    background-color:#e3eff4;
+    width:'100%';
+    height: 10px;
+    margin-top: -50px;
+  }
   
   label{
     color: white;
@@ -20,6 +25,9 @@
     display: flex;
     flex-direction: column;
   
+  }
+  .container{
+    width: 90%;
   }
   
   .inptext{
@@ -66,6 +74,7 @@
     font-weight: bold;
     font-size: 13px;
     padding: 10px 8px;
+    height: 65px;
     width: 100%;}
   
     .submitbutton{
@@ -116,7 +125,7 @@
   
   .width-container{
       background-color: #344b59;
-      margin-top: -42px;
+      margin-top: -15px;
       margin-bottom: 20px;
   }
 

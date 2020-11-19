@@ -1,25 +1,32 @@
 import React from "react";
 import "./contact.css";
-import "../Volunter/volunter.css";
+import "../Volunter/volunteer.css";
 
 const Contacts = () => {
   return (
     <>
+      <div className="topline"></div>
       <div className="container width-container">
-        <div className="page-nav">
-          <ul className="breadcrumbs">
+        <div class="page-nav">
+          <ul class="breadcrumbs">
             <li>
               <a href="/">
-                Home <span className="divider">&gt;</span>
+                Home <span class="divider">&gt;</span>
               </a>
             </li>
           </ul>
         </div>
         <div id="headline">
-          <h2 className="headline">Contact</h2>
+          <h2 class="headline">Contact</h2>
         </div>
       </div>
       <div className="formwrapp container">
+        <label>Contacts us</label>
+        <textarea></textarea>
+        <label for="anser6">
+          <input id="anser6" type="checkbox" name="anser6" />
+          <span> Don't publish this on the website</span>
+        </label>
         <div className="rowinput ">
           <div className="row">
             <div className="col-12 col-md-6 firstcoll">
@@ -27,7 +34,7 @@ const Contacts = () => {
               <input type="text" className="inptext" />
               <label>Email</label>
               <input type="email" className="inptext" />
-              <label htmlFor="anser4">
+              <label for="anser4">
                 <input type="checkbox" name="anser4" />
                 <span> Send me email updates</span>
               </label>
@@ -37,7 +44,7 @@ const Contacts = () => {
               <input type="text" className="inptext" />
               <label>Mobile Phone (optional)</label>
               <input type="text" className="inptext" />
-              <label htmlFor="anser5">
+              <label for="anser5">
                 <input type="checkbox" name="anser5" />
                 <span> Send me text messages</span>
               </label>
