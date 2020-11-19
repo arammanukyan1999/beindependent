@@ -1,0 +1,113 @@
+.App {
+    margin-top: 70px;
+}
+
+.aside-body {
+    padding: 20px;
+    background-color: #213847;
+    position: absolute;
+    top: -236px;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    transform: translateX(150px);
+    transition: 1s;
+
+    &:hover {
+        transform: translate(0, 0);
+        transition: 1s;
+    }
+
+    &:hover {
+        .circlebody {
+            p {
+                opacity: 1;
+                transition: 1s;
+            }
+        }
+    }
+
+    .circlebody {
+        position: relative;
+        padding: 10px 0;
+
+        border-bottom: 1px solid #30546a;
+
+        .circle1 {
+            width: 35px;
+            height: 35px;
+            background: transparent;
+            border: 3px solid red;
+            border-radius: 50%;
+            position: relative;
+
+            i {
+
+                color: red;
+                font-size: 20px;
+                position: absolute;
+                top: 5px;
+                left: 8px;
+            }
+        }
+
+        .circle2 {
+            width: 35px;
+            height: 35px;
+            background: transparent;
+            border: 3px solid red;
+            border-radius: 50%;
+            position: relative;
+
+            i {
+
+                color: red;
+                font-size: 20px;
+                position: absolute;
+                top: 5px;
+                left: 6px;
+            }
+        }
+
+        .circle3 {
+            width: 35px;
+            height: 35px;
+            background: transparent;
+            border: 3px solid red;
+            border-radius: 50%;
+            position: relative;
+
+            i {
+
+                color: red;
+                font-size: 20px;
+                position: absolute;
+                top: 5px;
+                left: 5px;
+            }
+        }
+
+        p {
+            position: absolute;
+            color: white;
+            font-weight: bolder;
+            top: 15px;
+            left: 44px;
+            width: 200px;
+            opacity: 0;
+            transition: 1s;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width:866px) {
+    .scrolled {
+        top: 358px !important
+    }
+}

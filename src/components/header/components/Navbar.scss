@@ -1,16 +1,28 @@
-.active {
-    background-color: #e3eff4;
-    color: #f1415c !important;
+.nav-link {
+    margin: 0 10px;
+
+    &:hover {
+        background-color: #e3eff4;
+        color: #f1415c !important;
+        transition: .5s;
+    }
 }
 
-.nav-link {
-    color: black;
-    font-weight: bold;
+.navbar-toggler {
+    margin-right: 100px;
 }
 
 .header {
+    position: relative;
+    background-color: white;
+
+    .active {
+        background-color: #e3eff4;
+        color: #f1415c !important;
+    }
+
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px 0;
 
     #navbarNav {

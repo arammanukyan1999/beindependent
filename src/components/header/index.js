@@ -5,9 +5,8 @@ const Header = () => {
   return (
     <>
       <HeaderTop />
-      <header className="header">
-        <Navbar />
-      </header>
+
+      <Navbar />
     </>
   );
 };

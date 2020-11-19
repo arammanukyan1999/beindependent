@@ -5,11 +5,11 @@ const Volunter = () => {
     <div className="formwrapp">
       <div className="willvolunter">
         <input type="checkbox" name="anser1" />
-        <label for="anser1"> I will host an event</label>
+        <label htmlFor="anser1"> I will host an event</label>
         <input type="checkbox" name="anser2" />
-        <label for="anser2"> I will be a social media ambassador</label>
+        <label htmlFor="anser2"> I will be a social media ambassador</label>
         <input type="checkbox" name="anser3" />
-        <label for="anser3">I will help reach out to my network</label>
+        <label htmlFor="anser3">I will help reach out to my network</label>
       </div>
       <div className="rowwinput">
         <label>First Name </label>
@@ -20,9 +20,9 @@ const Volunter = () => {
         <input type="email" />
         <label>Mobile Phone (optional) </label>
         <input type="checkbox" name="anser4" />
-        <label for="anser4"> Send me email updates</label>
+        <label htmlFor="anser4"> Send me email updates</label>
         <input type="checkbox" name="anser5" />
-        <label for="anser5"> Send me text messages</label>
+        <label htmlFor="anser5"> Send me text messages</label>
         <input type="number" />
       </div>
       <div>
@@ -32,7 +32,7 @@ const Volunter = () => {
         <input type="text" />
         <label>Comments, other ideas, etc. (optional)</label>
         <textarea></textarea>
-        <label for="anser6"> Don't publish this on the website</label>
+        <label htmlFor="anser6"> Don't publish this on the website</label>
         <input type="checkbox" name="anser6" />
       </div>
       <div>
