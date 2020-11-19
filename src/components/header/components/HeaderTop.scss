@@ -1,0 +1,46 @@
+.header-top {
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  .header-top-left {
+    display: flex;
+    justify-content: space-evenly;
+    span {
+      color: white;
+    }
+    .sign-up-txt {
+      color: white;
+    }
+    .sign-up-inpt {
+      background: #fff;
+      border: 0 none;
+      box-shadow: none;
+      color: #2d2d2d;
+    }
+  }
+  .header-top-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    span {
+      color: white;
+      width: 100px;
+    }
+    div {
+      background-color: #f1415c;
+      font-size: 16px;
+      margin: 0 10px;
+    }
+    .tweet {
+      padding: 6px 10px;
+      border-radius: 50%;
+    }
+    .facebook {
+      padding: 6px 13px;
+      border-radius: 50%;
+    }
+  }
+}
