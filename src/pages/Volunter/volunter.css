@@ -1,0 +1,83 @@
+.formwrapp{
+    display: flex;
+    flex-direction: column;
+    background-color: #344b59;
+    padding: 3em 3.5em;
+  }
+  
+  .willvolunter{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  label{
+    color: white;
+  }
+  
+  .formwrapp .rowinput .row div{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .formwrapp .rowinput .row .inptext{
+    width: 100%;
+    background: #fff;
+    border: 0 none;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #000;
+    font-family: "ff-tisa-web-pro","Droid Serif",serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px 8px;
+  
+  }
+  
+  textarea:focus, input:focus, select:focus {
+    border-color: #f1415c;
+    outline: 0;
+    outline: thin dotted \9;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px #f1415c !important;
+  }
+  
+  
+  input:hover{
+    box-shadow: 0 0 3px rgba(151, 27, 27, 0.5) !important;
+  }
+  
+  .rowfluid{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea {
+    background: #fff;
+    border: 0 none;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #000;
+    font-family: "ff-tisa-web-pro","Droid Serif",serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px 8px;
+    width: 100%;}
+  
+    .submitbutton{
+      
+        cursor: pointer;
+        display: block;
+        background: #f1415c;
+        border-radius: 3px;
+        padding: 1em;
+        margin: 20px auto 10px;
+        border: 0 none;
+        font: 16px "proxima-nova",Arial,Helvetica,sans-serif normal;
+        color: #fff;
+        min-height: 39px;
+        text-align: center;
+        text-shadow: rgba(0,0,0,0.2) 0 1px;
+        border: 0;
+    
+    }
