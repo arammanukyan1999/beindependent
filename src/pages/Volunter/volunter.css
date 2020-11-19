@@ -3,6 +3,7 @@
     flex-direction: column;
     background-color: #344b59;
     padding: 3em 3.5em;
+    margin-top: 15px;
   }
   
   .willvolunter{
@@ -21,7 +22,7 @@
   
   }
   
-  .formwrapp .rowinput .row .inptext{
+  .inptext{
     width: 100%;
     background: #fff;
     border: 0 none;
@@ -50,6 +51,9 @@
   .rowfluid{
     display: flex;
     flex-direction: column;
+  }
+  .linked-signup-name{
+    color:white;
   }
   
   textarea {
@@ -81,3 +85,79 @@
         border: 0;
     
     }
+
+   
+  
+  .breadcrumbs  li a{
+    color: #f1415c;
+    
+
+  }
+  li{
+    list-style-type: none;
+    
+    background-color:#495e6a;
+    
+  
+    
+  }
+  .breadcrumbs {
+    margin-top: 15px;
+    padding: 8px 15px ;
+    list-style: none;
+    background: rgba(255,255,255,0.1);
+    border: 0 none;
+    width: 110px;
+    height: 40px;
+    margin-left: 0px !important;
+
+    
+  }
+  
+  .width-container{
+      background-color: #344b59;
+      margin-top: -42px;
+      margin-bottom: 20px;
+  }
+
+.breadcrumbs  li a:hover {
+  text-decoration: none;}
+
+  .breadcrumbs  li a{
+  color: #f1415c;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  text-shadow: none;}
+  
+  .headline{
+    color: white;
+    margin: 0 0 15px;
+    padding: 0 0 40px 66px;
+  }
+
+  .slider-card{
+    width: 331.74px;
+     margin-right: 0px;
+    position: relative;
+  }
+
+  
+  img{
+    border:"0";
+     alt:"alexandra baginski";
+     margin-right: .7em;
+  
+  }
+
+  .slider-card-profile{
+    background-color:  #344b59;
+    animation-name: example;
+    animation-duration: 1s;
+  }
+
+  
+  @keyframes example {
+    0%   { transform: translate(100%,0)}
+    100% { transform: translate(0%,0)}
+  }
