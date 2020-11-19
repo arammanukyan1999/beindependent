@@ -4,7 +4,7 @@ const HeaderTop = () => {
   return (
     <>
       <div className="header-top">
-        <div className="header-top-left col-lg-4">
+        <div className="header-top-left ">
           <form action="#">
             <label htmlFor="singnUp" className="sign-up-txt">
               Join with Email
@@ -14,18 +14,18 @@ const HeaderTop = () => {
               className="sign-up-inpt"
               placeholder="name@example.com"
             />
-            <button>Sign Up</button>
+            <button className="sign-up-btn">Sign Up</button>
+            <span>Or</span>
+            <button className="sign-in-btn">Sign In</button>
           </form>
-          <span>Or</span>
-          <button>Sign In</button>
         </div>
         <div className="header-top-right ">
           <span className="">Or login with:</span>
           <div className="tweet">
-            <i class="fa fa-twitter"></i>
+            <i className="fa fa-twitter"></i>
           </div>
           <div className="facebook">
-            <i class="fa fa-facebook-f"></i>
+            <i className="fa fa-facebook-f"></i>
           </div>
         </div>
       </div>

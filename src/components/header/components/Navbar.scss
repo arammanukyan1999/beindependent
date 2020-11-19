@@ -1,0 +1,64 @@
+.active {
+    background-color: #e3eff4;
+    color: #f1415c !important;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    #navbarNav {
+        position: relative;
+
+        .navbar-nav {
+            position: absolute;
+            right: 0;
+        }
+    }
+
+    .navbar-toggler {
+        background: #f1415c;
+
+        .fa-bars {
+            color: white;
+            font-size: 30px;
+        }
+    }
+
+
+    .navbar-brand {
+        img {
+            max-width: 290px;
+            max-height: 130px;
+        }
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    .header {
+        width: 90%;
+    }
+}
+
+
+
+@media only screen and (max-width:991px) {
+    .header {
+        width: 100%;
+    }
+
+    #navbarNav {
+        .navbar-nav {
+            position: relative !important;
+            width: 100%;
+            background-color: white;
+            text-align: center;
+        }
+    }
+}
