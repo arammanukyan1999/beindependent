@@ -1,20 +1,20 @@
 import React from 'react'
-import './volunter.css'
+import './volunteer.css'
 
 
 const Volunter = () => {
   return (
     <>
+      <div className='topline'></div>
       <div className="container width-container">
-          <div  class="page-nav">
-            <ul class="breadcrumbs">
-              <li><a href="/">Home <span class="divider">&gt;</span></a></li>
-            </ul>
-          </div>
-          <div id="headline">
-            <h2 class="headline">Become a volunteer</h2>
-          </div>
-        
+        <div class="page-nav">
+          <ul class="breadcrumbs">
+            <li><a href="/">Home <span class="divider">&gt;</span></a></li>
+          </ul>
+        </div>
+        <div id="headline">
+          <h2 class="headline">Become a volunteer</h2>
+        </div>
       </div>
       <div className="container slider-card-wrap">
         <div className="container slider-card-wrap" style={{ background: "white" }}>

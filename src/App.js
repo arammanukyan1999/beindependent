@@ -1,5 +1,5 @@
 import React from "react";
-import Volunteer from "./pages/Volunter/Volunter";
+import Volunteer from "./pages/Volunter/Volunteer";
 import Contact from './pages/contacts/Contact'
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
@@ -10,7 +10,7 @@ const App = () => {
       <Header />
       <div className="App">
         <Switch>
-          <Route exact path={"/volunter"} component={Volunteer} />
+          <Route exact path={"/volunteer"} component={Volunteer} />
           <Route exact path={"/contact"} component={Contact} />
 
         </Switch>

@@ -1,11 +1,12 @@
 import React from 'react'
 import './contact.css'
-import '../Volunter/volunter.css'
+import '../Volunter/volunteer.css'
 
 
 const Contacts = () => {
   return (
     <>
+     <div className='topline'></div>
       <div className="container width-container">
           <div  class="page-nav">
             <ul class="breadcrumbs">
@@ -18,6 +19,12 @@ const Contacts = () => {
         
       </div>
       <div className="formwrapp container">
+      <label>Contacts us</label>
+          <textarea></textarea>
+          <label for="anser6">
+            <input id="anser6" type="checkbox" name="anser6" />
+            <span>  Don't publish this on the website</span>
+          </label>
       <div className="rowinput " >
           <div className='row'>
             <div className='col-12 col-md-6 firstcoll'>
