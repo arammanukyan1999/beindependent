@@ -5,7 +5,7 @@ const session=require('express-session')
 const router=require('./router')
 const server=require('http').Server(app)
 const mongoose=require('mongoose')
-
+const cors = require('cors');
 mongoose.connect('mongodb+srv://paruyr:123456db@cluster0.p0epc.mongodb.net/volunteer', {  useNewUrlParser: true,}) 
 
  const db = mongoose.connection;
@@ -20,6 +20,7 @@ app.use(
         saveUninitialized:true,
     })
 ) 
+app.use(cors());
 app.use(expres.static('public'));
 
 app.use(expres.static('public'))
@@ -37,7 +38,7 @@ app.use(router)
 
 
 
-server.listen(3030)
+server.listen(process.env.PORT || 3030)
 
 
  

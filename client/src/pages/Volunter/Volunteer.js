@@ -26,7 +26,7 @@ const Volunter = () => {
   const [mobilephoneerror, setmobilephoneerror] = useState(false)
 
   const postdata = () => {
-    axios.post("/volunteer", {
+    axios.post(`${process.env.REACT_APP_URL}/volunteer`, {
       eventHost,
       socialMedia,
       myNetwork,
