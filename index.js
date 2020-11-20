@@ -6,6 +6,7 @@ const router=require('./router')
 const server=require('http').Server(app)
 const mongoose=require('mongoose')
 const cors = require('cors');
+const path = require('path');
 mongoose.connect('mongodb+srv://paruyr:123456db@cluster0.p0epc.mongodb.net/volunteer', {  useNewUrlParser: true,}) 
 
  const db = mongoose.connection;
@@ -32,7 +33,6 @@ app.use(bodyParser.json())
 
   
 app.use(router)
-
 
 
 server.listen(process.env.PORT || 3030)
