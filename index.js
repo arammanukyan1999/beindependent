@@ -21,9 +21,6 @@ app.use(
     })
 ) 
 app.use(cors());
-app.use(expres.static('public'));
-
-app.use(expres.static('public'))
 app.use(bodyParser.urlencoded({
     extended:false
 }))
