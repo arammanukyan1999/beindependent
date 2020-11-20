@@ -34,7 +34,10 @@ app.use(bodyParser.json())
   
 app.use(router)
 
-
+app.use(expres.static(__dirname,'./','client',"build"))
+app.get("*",(req,res)=>{
+    res.sendFile(path.join(__dirname,'./','client',"build","index.html"))
+})
 server.listen(process.env.PORT || 3030)
 
 
